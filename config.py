@@ -31,15 +31,15 @@ YTUB_COOKIES = """
 #HttpOnly_.youtube.com	TRUE	/	TRUE	1788691584	__Secure-3PSIDCC	AKEyXzVfFrgcRddV4NMwS8AiS8rnEtVbVvEEibYbrZJo-6wriGz0wK77-ucMIWL3v8L2dJrrp8M
 """
 
-API_ID = int(getenv("API_ID", "25331263"))
-API_HASH = getenv("API_HASH", "cab85305bf85125a2ac053210bcd1030")
-BOT_TOKEN = getenv("BOT_TOKEN", "7898287194:AAH11sDHQdGrkpcLJzRdH1wWul30jsW6x-I")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1955406483").split()))
-MONGO_DB = getenv("MONGO_DB", "mongodb+srv://rs92573993688:pVf4EeDuRi2o92ex@cluster0.9u29q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-LOG_GROUP = getenv("LOG_GROUP", "-1002746874071")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002888391802"))
-BIN_CHANNEL = int(getenv("BIN_CHANNEL", "-1002942104474"))  # Replace with your BIN channel ID
-FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "10000"))
+API_ID = int(getenv("API_ID", "24636235"))
+API_HASH = getenv("API_HASH", "5ce558e427b642de176c67a987fb9bb2")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "8271135071").split()))
+MONGO_DB = getenv("MONGO_DB", "mongodb+srv://azadmalakiya20:azad902030@cluster0.dsbwlad.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP = getenv("LOG_GROUP", "-1002767400687")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1003053567331"))
+BIN_CHANNEL = int(getenv("BIN_CHANNEL", "-1003185865116"))  # Replace with your BIN channel ID
+FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "5"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "10000"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
 AD_API = getenv("AD_API", "52b4a2cf4687d81e7d3f8f2b7bc2943f618e78cb")
